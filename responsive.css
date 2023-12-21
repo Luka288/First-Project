@@ -1,0 +1,941 @@
+@media (max-width: 1024px){
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    main section.careerOppo .articleSection .imgHolder img {
+        height: 331px;
+        width: 186px;
+    }
+    article.container{
+        width: 100%;
+    }
+    main .content{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(1, 1fr)
+    }
+    main section.insomniacWork div.career, .opportunities{
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        width: 183px;
+        height: 200px;
+        background-color: var(--white-color);
+    }
+    main section.news div.imgInfo img{
+        width: 440px;
+        height: 460px;
+    }
+    main section.news div.boxInfo{
+        width: 440px;
+        height: 460px;
+    }
+    main section.news div.boxInfo div.slider{
+        width: 225px;
+        height: 60px;
+    }
+    main section.news div.boxInfo div.slider ul, a.slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        font-family: var(--primary-font);
+        padding-right: 35px;
+        height: 70px;
+        gap: 1px;
+    }
+    main section.community{
+        display: grid;
+        align-content: center;
+        width: 100%;
+        height: 550px;
+        background-color: var(--background-color);
+    }
+    main section.community .communitySlider{
+        display: grid;
+        flex-direction: column;
+        gap: 30px;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 30px;
+        padding-left: 4px;
+
+    }
+    footer div.gameList{
+        height: 720px;
+    }
+    main section.careerOppo div.articleSection{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main .careerOppo .wrapper2 .imgHolder{
+        display: grid;
+    }
+    main section.careerOppo div.articleSection .wrapper2{
+        width: 100%;
+    }
+    main section.careerOppo .articleSection .wrapper2 .colaider{
+        width: 265px;
+    }
+    main section.insomniacLife .containerHolder .lifeContainers img{
+        width: 210px;
+        height: 210px;
+    }
+
+
+    main article.containerP2 .gamesP2 .contentP2 .gameContentP2 h2{
+        width: 213px;
+        font-size: 25px;
+        padding-left: 24px;
+        font-weight: 400;
+    }   
+
+    main article.containerP2 .gamesP2 .contentP2 .gameContentP2 .learnBtnP2{
+        margin: 12px;
+        }
+    main section.currentTitle{
+        height: auto;
+    }
+    main article.containerP2 .gamesP2 .contentP2 .gameContentP2 {
+        display: grid;
+        justify-content: center;
+        font-family: var(--primary-font);
+        background-color: var(--white-color);
+        width: 212px;
+        height: 415px;
+    }
+    main article.containerP2 .gamesP2 .contentP2 .gameContentP2 img{
+        width: 213px;
+        height: 212px;
+    }
+    main section.currentTitle .wrapper{
+        grid-template-columns: repeat(2, 0fr);
+    }
+
+    main section.community .communitySliderP2{
+        grid-template-columns: repeat(2, 0fr);
+    }
+    main section.community .communityContainer .gamesRow ul{
+        grid-template-columns: repeat(4, 0fr);
+    }
+
+    main section.community{
+        height: 650px
+    }
+    main section.news div.boxInfo div.slider ul, a.slider {
+        height: 0px;
+    }
+    main section.vision-mission div.text{
+        display: grid;
+        align-content: center;
+        gap: 27px;
+        width: 780px;
+        height: 100px;
+    }
+    footer article.icons div.logos{
+        display: flex;
+        gap: 0px;
+    }
+    footer article.icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        gap: 0px;
+        background-color: var(--secondarybackground-color);
+    }
+    main section.careerOppo .articleSection .imgHolder img {
+        width: 336px;
+
+    }   
+    main section.insomniacLife .lifeContainers{
+        width: 210px;
+        height: 445px;
+    }
+
+    main section.Benefits .textHolder{
+        width: 800px;
+    }
+    main section.Benefits .title{
+        width: 800px;
+    }
+    main section.awards .title{
+        width: 890px;
+    }
+    main section.awards .imgContainer .images2 img{
+        width: 300px;
+    }
+    main section.careerOppo div.articleSection .textArea{
+        width: 650px;
+    }
+    main section.careerOppo div.articleSection{
+        width: 430px;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li.articleBtn{
+        padding-top: 150px;
+    }
+    main section.careerOppo div.articleSection{
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1440px){
+    main section.careerOppo .articleSection .imgHolder img {
+        width: 550px;
+    }
+    main section.careerOppo .articleSection .imgHolder .imagesNext img{
+        width: 260px;
+    }
+
+@media (max-width: 768px){
+    header nav label.checkLabel {
+        display: block;
+      }
+    
+      header nav ul {
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        background-color: white;
+        top: 80px;
+        left: -100%;
+        flex-direction: column;
+        z-index: 1200;
+        transition: 0.5s all;
+      }
+    
+      header nav ul li a:hover,
+      header nav ul li a:active {
+        color: var(--active-color);
+        background: none;
+      }
+    
+      header nav input#checkBtn:checked~ul {
+        left: 0px;
+      }
+
+    header nav aside ul li a img{
+        padding-top: 24px;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li{
+        padding-top: 0px;
+    }
+    main section.careerOppo .articleSection .imgHolder img{
+        padding-right: 20px;
+    }
+    main section.community{
+        height: 720px;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    article.container{
+        width: 100%;
+    }
+    main article.containerP2 .gamesP2 .contentP2{
+        grid-template-columns: repeat(2, 0fr);
+    }
+    main section.currentTitle .wrapper{
+        grid-template-columns: repeat(3, 0fr);
+    }
+    main section.currentTitle .wrapper .game1 img{
+        width: 190px;
+        height: 190px;
+    }
+    main section.awards .title{
+        width: 600px;
+    }
+    main section.awards .imgContainer .images2 img{
+        width: 230px;
+    }
+    main section.insomniacLife div.correction{
+        width: 660px;
+    }
+    main section.careerOppo .articleSection .imgHolder img{
+        width: 300px;
+        height: 186px;
+    }
+    main section.careerOppo .articleSection .imgHolder .imagesNext img{
+        width: 160px;
+        height: 86px;
+    }
+    main section.Benefits .textHolder{
+        width: 650px;
+    }
+    main section.Benefits .title{
+        width: 650px;
+    }
+    main section.Benefits .textHolder div.fullList{
+        padding-top: 15px;
+    }
+    main section.currentTitle .wrapper .game1{
+        width: 190px;
+        height: 350px;
+    }
+    main section.currentTitle .wrapper .game1 ul i{
+        left: 56px;
+        right: 0px;
+        top: -130px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix-line2{
+        top: -75px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix-line11{
+        top: -105px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix-line3{
+        top: -100px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix-line21{
+        top: -75px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix-line23{
+        top: -105px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix11{
+        top: -105px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix{
+        top: -130px;
+    }
+    main section.community .communityTitle h2 {
+        padding-left: 15px;
+    }
+    main section.community .communitySliderP2{
+        justify-content: center;
+    }
+    main section.community .communityContainer .gamesRow ul li.delete{
+        display: none;
+    }
+    main section.community .communityContainer .gamesRow ul{
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+    }
+    main .content{
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    main section.insomniacWork div.career, .opportunities{
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        width: 183px;
+        height: 200px;
+        background-color: var(--white-color);
+    }
+    main section.news div.imgInfo img{
+        width: 320px;
+        height: 460px;
+    }
+    main section.news div.boxInfo{
+        width: 440px;
+        height: 460px;
+    }
+    main section.news div.boxInfo div.slider{
+        width: 225px;
+        height: 60px;
+    }
+    main section.news div.boxInfo div.slider ul, a.slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-color);
+        font-family: var(--primary-font);
+        padding-right: 35px;
+        height: 70px;
+        gap: 1px;
+    }
+    main section.community .communitySlider{
+        display: grid;
+        flex-direction: column;
+        gap: 30px;
+        grid-template-columns: repeat(3, 0fr);
+        gap: 30px;
+        padding-left: 4px;
+    }
+    main .careerLast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        background-color: var(--white-color);
+        color: var(--a-color);
+        width: 233px;
+        height: 200px;
+    }
+
+    main section.vision-mission div.text{
+        display: grid;
+        align-content: center;
+        gap: 27px;
+        width: 595px;
+        height: 100px;
+    }
+    footer article.icons div.logos{
+    display: flex;
+    gap: 0px;
+    }
+    footer article.icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        gap: 0px;
+        background-color: var(--secondarybackground-color);
+        }
+    footer div.gameList{
+        display: grid;
+        padding-top: 25px;
+        padding-right: 80px;
+        padding-bottom: 200px;
+        gap: 60px;
+        grid-template-columns: repeat(3, 4fr);
+        height: 30px;
+        width: 100%;
+        height: 600px;
+        align-items: start;
+        align-content: space-between;
+    }
+    footer div.gameList div.row ul li a{
+        line-height: 25px;
+        font-family: var(--primary-font);
+        color: var(--active-color);
+        transition: 0.3s ease-in;
+    }
+    footer div.gameList .row{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 0fr);
+    }
+    main div.info{
+        position: inherit;
+        background-color: #151C1F;
+        top: 45%;
+        left: 20%;
+        margin: 0 auto;
+        width: auto;
+        height: 180px;
+    }
+    header nav div.check label.checkLabel{
+    display: block;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li.articleBtn{
+        padding-top: 120px;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li.articleBtn{
+        padding-top: 150px;
+    }
+    main section.careerOppo div.articleSection{
+        justify-content: end;
+    }
+}
+
+@media (max-width: 425px){
+    header{
+        z-index: 1200;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    main article.containerP2 .gamesP2 .contentP2{
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.currentTitle .wrapper{
+        grid-template-columns: repeat(2, 0fr);
+    }
+    main section.news div.boxInfo div.slider{
+        width: 205px;
+        justify-self: center;
+        padding-left: 65px;
+    }
+    main section.news .newsContainer .bottomContent .paragraph{
+        height: 75px;
+    }
+    main section.news div.boxInfo h2{
+        height: 90px;
+    }
+    main section.community .communitySliderP2{
+        grid-template-columns: repeat(1, 0fr);
+        gap: 0px;
+    }
+    main section.community{
+        height: 1000px;
+    }
+    main .games{
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        padding: 70px;
+        max-width: 90%;
+        height: 100%;
+    }
+    main .gameContent{
+        display: grid;
+        padding-right: 100px;
+        width: 352px;
+        height: 456px;
+        background-color: white;
+        transition: 0.4s ease-in;
+    }
+    main div.info h1{
+        font-size: 25px;
+    }
+    main article.container div.games div.gameContent h2, p{
+        font-family: var(--primary-font);
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    main .gameContent img{
+        width: 352px;
+        height: 352px;
+    }
+    main .insomniacWork{
+        display: grid;
+        justify-content: center;
+        padding-left: 65px;
+        width: 100%;
+        height: 920px;
+        background-color: var(--background-color);
+    }
+    main div.workSection{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.insomniacWork div.career, .opportunities{
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        width: 250px;
+        height: 200px;
+        background-color: var(--white-color);
+    }
+    main .careerLast{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--white-color);
+        color: var(--a-color);
+        width: 250px;
+        height: 200px;
+    }
+    main section.news{
+        display: grid;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1200px;
+    }
+    main section.news .newsContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.news .newsContainer .bottomContent{
+        display: flex;
+        flex-direction: column;
+    }
+    main section.news div.boxInfo{
+        width: 350px;
+        height: 100%;
+    }
+    main section.news div.imgInfo img{
+        width: 350px;
+        height: 100%;
+    }
+    main section.news div.boxInfo h2{
+        width: 230px;
+        font-size: 19px;
+    }
+    main section.news .newsContainer .bottomContent .paragraph{
+        width: 330px;
+        height: 95px;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li.articleFix{
+        height: 75px;
+    }
+    main section.currentTitle .wrapper .game1{
+        width: 160px;
+    }
+    main section.currentTitle .wrapper .game1 img{
+        width: 160px;
+    }
+    main section.currentTitle .wrapper .game1 ul i.fix{
+        top: -160px
+    }
+    main section.community .communitySlider{
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+    }
+    main section.vision-mission div.text{
+        width: 390px;
+    }
+    footer div.gameList{
+        display: grid;
+        padding: 0px;
+        text-align: top;
+        gap: 60px;
+        grid-template-columns: repeat(2, 4fr);
+        width: 100%;
+        height: 600px;
+    }
+    footer article.icons{
+        height: 550px;
+    }
+    footer article.icons div.logos{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.community .explore ul li a{
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        width: 356px;
+    }
+    main section.careerOppo div.articleSection{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.careerOppo div.articleSection .wrapper2{
+        display: grid;
+        grid-template-columns: revert;
+    }
+    main section.careerOppo{
+        width: 100%;
+        height: 100%;
+    }
+    main section.insomniacLife .containerHolder{
+        justify-content: center;
+        grid-template-columns: repeat(1, 0fr);
+        height: 100%;
+    }
+    main section.insomniacLife{
+        height: 100%;
+    }
+    main section.Benefits .textHolder{
+        width: 380px;
+    }
+    main section.Benefits .title{
+        width: 380px;
+    }
+    main section.awards .imgContainer .images2 img{
+        width: 120px;
+    }
+    main section.awards .title{
+        width: 320px;
+    }
+    main .careerNav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+    }
+    main .careerNav{
+        z-index:300;
+        height: 160px;
+    }
+    main section.insomniacLife div.correction{
+        width: 300px;
+        gap: 20px;
+    }
+    main section.careerOppo div.articleSection p{
+        width: 380px;
+    }
+    main section.careerOppo div.articleSection p.accordionP{
+        width: 180px;
+    }
+    main .title h2{
+        width: 200px;
+    }
+    footer article.icons{
+        height: 100%;
+    }
+    main section.careerOppo .articleSection .imgHolder{
+        height: 365px;
+    }
+    main section.careerOppo div.articleSection .textArea{
+        width: auto;
+    }
+    main section.careerOppo{
+        display: grid;
+        justify-content: end;
+    }
+    main .careerNav ul{
+        padding-right: 43px;
+    }
+    main section.vision-mission div.text h5{
+        width: 321px;
+    }
+    main section.vision-mission div.text p{
+        width: 375px;
+    }
+    main section.insomniacLife .containerHolder{
+        padding-top: 100px;
+    }
+    main section.Benefits .textHolder{
+        width: 335px;
+    }
+    footer div.gameList{
+        padding: 66px;
+        height: 850px;
+      }
+      main section.news .newsContainer .bottomContent{
+        padding-top: 100px;
+      }
+      main .news .newsContainer .line:nth-child(2){
+        top: 74px;
+      }
+}
+
+@media (max-width: 375px){
+    main{
+        width: 100%;
+    }
+    main section.community .communityContainer .gamesRow ul li img{
+        width: 150px;
+    }
+    footer{
+        width: 100%;
+    }
+    main section.community .communitySlider div.cIcon{
+        width: 150px;
+    }
+    main section.news div.boxInfo h2{
+        font-size: 15px;
+    }
+    main section.news div.boxInfo div.slider ul, a.slider{
+        height: 60px;
+    }
+    main section.vision-mission div.text h2{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    main .line{
+        position: inherit;
+    }
+    main section.vision-mission div.text h5{
+        font-size: 16px;
+        width: 250px;
+        padding-left: 20px;
+    }
+
+    main section.news .newsContainer .bottomContent .paragraph{
+        width: 280px;
+    }
+    main section.careerOppo div.articleSection p{
+        width: 344px;
+        padding-top: 50px;
+    }
+    main .line{
+        position: relative;
+        top: 40px;
+    }
+    main section.careerOppo div.articleSection{
+        padding-right: 10px;
+    }
+    main .careerNav ul{
+        padding-right: 50px;
+    }
+    main section.news .newsContainer .bottomContent{
+        padding-top: 100px;
+    }
+    main .vision-mission .text .line:nth-child(2){
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    main section.vision-mission{
+        display: flex;
+    }
+    main section.vision-mission div.text h2{
+        font-size: 40px;
+    }
+    main section.vision-mission div.text p{
+        width: auto;
+    }
+    main section.vision-mission div.text h5{
+        width: auto;
+    }
+    main section.Benefits .title{
+        width: 168px;
+    }
+    main .benefits .title .lineBenefits{
+        top: -7px;
+    }
+    main .title h2{
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 320px){
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    main section.community .communitySlider div.cIcon{
+        width: 150px;
+    }
+    main .gameContent{
+        width: 258px;
+        height: 350px;
+    }
+    main .gameContent img{
+        width: 258px;
+        height: 258px;
+    }
+    main section.news div.boxInfo{
+        width: 258px;
+        height: 300px;
+    }
+    main section.news div.imgInfo img{
+        width: 258px;
+        height: 300px;
+    }
+    main section.community .communitySlider{
+        width: 100px;
+    }
+    main section.community .communityContainer{
+        display: grid;
+        justify-content: left;
+        width: 258px;
+    }
+    main section.community .explore ul li a{
+        font-size: 10px;
+        font-weight: 700;
+        width: 194px;
+    }
+    main section.community .communitySlider div.cIcon{
+        width: 130px;
+    }
+    main section.vision-mission div.text{
+        width: 300px;
+        gap: 10px;
+    }
+    footer div.gameList{
+        height: 725px;
+    }
+    main section.news div.boxInfo h2{
+        font-size: 15px;
+    }
+    main section.news div.boxInfo div.slider ul, a.slider{
+        height: 0px;
+    }
+    main .insomniacWork{
+        height: 1100px;
+    }
+    main section.news .newsContainer .bottomContent .paragraph{
+        width: 209px;
+    }
+    main section.currentTitle .wrapper{
+        grid-template-columns: repeat(1, 0fr);
+    }
+    main section.insomniacLife .containerHolder{
+        padding-top: 100px;
+    }
+    main .line{
+        top: 70px;
+    }
+    main section.news .newsContainer .bottomContent{
+        padding-top: 100px;
+    }
+    main section.news div.boxInfo{
+        height: 380px;
+    }
+    main section.news .newsContainer .bottomContent .boxInfo ul li.articleFix{
+        padding-top: 22px;
+    }
+    main section.news div.boxInfo div.slider ul, a.slider{
+        height: 40px;
+    }
+    main section.news div.boxInfo h2{
+        width: 216px;
+    }
+    header nav input#checkBtn:checked~ul{
+        z-index: 1200;
+    }
+        header nav label.checkLabel {
+        display: block;
+      }
+    
+      header nav ul {
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        background-color: white;
+        top: 80px;
+        left: -100%;
+        flex-direction: column;
+        z-index: 10;
+        transition: 0.5s all;
+      }
+    
+      header nav ul li a:hover,
+      header nav ul li a:active {
+        color: var(--active-color);
+        background: none;
+      }
+    
+      header nav input#checkBtn:checked~ul {
+        left: 0px;
+      }
+      footer div.gameList{
+        padding: 6px;
+      }
+      main .careerNav ul{
+        gap: 12px;
+      }
+      main .title h2{
+        padding-left: 80px;
+        font-size: 36px;
+      }
+      main section.careerOppo div.articleSection p{
+        padding-left: 96px;
+      }
+      main .line{
+        top: -2px;
+        left: 67px;
+      }
+      main section.careerOppo div.articleSection{
+        display: block;
+        padding-left: 38px;
+      }
+      main section.careerOppo div.articleSection .wrapper2{
+        padding-left: 86px;
+      }
+      main section.careerOppo .articleSection .imgHolder .imagesNext{
+        gap: 0px;
+      }
+      main .title h2{
+        padding-left: 0px;
+      }
+      main section.Benefits .textHolder{
+        width: 280px;
+      }
+      .imgContainer{
+        display: flex;
+        width: 333px;
+      }
+      footer div.gameList{
+        height: 791px;
+      }
+      main .articleSection .title h2:nth-child(1){
+        padding-left: 81px;
+      }
+      .images2{
+        display: grid;
+        width: 344px;
+      }
+    }
+}

@@ -1,0 +1,1236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-font: 'Montserrat', sans-serif;
+    --black-color: #000;
+    --white-color: #ffff;
+    --line-color: rgba(255,255,255,.7);
+    --background-shadow: rgba(255,255,255,.7);
+    --a-color: #4A6585;
+    --active-color: #78B1BB;
+    --background-color: #48707A;
+    --secondarybackground-color: #151D20;
+    --footer-color: #C3C3C3;
+}
+dl, ol, ul{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--primary-font);
+  }
+  
+  header {
+    z-index: 1200;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #151C1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 20px;
+    box-sizing: border-box;
+  }
+  header aside{
+    padding-left: 15%;
+  }
+  header aside a {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  header aside a img{
+    align-items: center;
+    width: 200px;
+  }
+  
+  header nav {
+    padding-right: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+  }
+  header nav label i{
+    color: var(--active-color);
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 30px;
+    list-style: none;
+    gap: 2em;
+    box-sizing: border-box;
+  }
+  
+  header nav ul li a {
+    display: inline-block;
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: #78b1bb;
+    line-height: 80px;
+    text-align: center;
+    transition: 0.2s ease;
+  }
+  
+  header nav  ul li a:hover{
+    background-color: #151C1F;
+    color: white;
+    transition: 0.2s ease;
+  }
+  header nav input {
+    display: none;
+  }
+  
+  header nav label.checkLabel {
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+
+ul li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+main{
+    width: 100%;
+}
+
+main iframe{
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+
+main div.info{
+    position: absolute;
+    top: 42%;
+    left: 17%;
+    margin: 0 auto;
+    width: auto;
+    height: 300px;
+}
+main div.info h1{
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 47px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #000;
+    height: 60px;
+}
+
+main div.info p{
+    color: white;
+    font-family: var(--primary-font);
+    text-shadow: 2px 2px 4px #000;
+    font-size: 18px;
+    margin: 2px;
+    height: 40px;
+}
+
+main div.info a{
+    position: absolute;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    border-radius: 36px;
+    background-color: #48797a;
+    color: white;
+    height: 32px;
+    padding: 0 2rem;
+    line-height: 36px;
+    font-weight: 400;
+    transition: 0.2s ease-out;
+}
+
+main div.info a i{
+    display: inline-block;
+    font-weight: 600;
+    padding-top: 9px;
+}
+
+main div.info a:hover{
+    background-color: #78B1BB;
+    transition: 0.2s ease-out;
+}
+article.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(./assets/images/space-homepage.jpg);
+    background-size: cover;
+    background-position: top center;
+ }
+main .videoContainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.ytp-cued-thumbnail-overlay-image{
+    background-position: top;
+}
+
+main .games{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+    max-width: 90%;
+    height: 100%;
+}
+
+main .title h2{
+    text-transform: uppercase;
+    height: 37px;
+    font-weight: 400;
+    font-size: 40px;
+    gap: 20px;
+    color: white;
+    font-family: var(--primary-font);
+    text-align: top ;
+}
+
+main .title{
+    display: grid;
+}
+main .content{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main .gameContent .title{
+    height: 20px;
+}
+
+main .gameContent img{
+    width: 613px;
+    height: 613px;
+}
+
+main .gameContent{
+    display: grid;
+    width: 613px;
+    height: 736px;
+    background-color: white;
+    transition: 0.4s ease-in;
+}
+main .gameContent:hover{
+    box-shadow: 0px 0px 7px;
+    transition: 0.4s ease-in;
+}
+
+main .gameContent .learnBtn{
+    justify-self: center;
+    top: 540px;
+    left: 300px;
+    color: black;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    border-radius: 36px;
+    background-color: #48797a;
+    color: white;
+    height: 32px;
+    padding: 0 2rem;
+    line-height: 36px;
+    font-weight: 400;
+    transition: 0.2s ease-out;
+    margin: 57px;
+    width: 87%;
+    text-align: center;
+    margin: 0px;
+}
+main .gameContent .learnBtn:hover{
+    background-color: #78B1BB;
+    transition: 0.2s ease-out;
+}
+main .line{
+    position: relative;
+    justify-self: left;
+    width: 80px;
+    height: 3px;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
+main article.container div.games div.gameContent h2, p{
+    font-family: var(--primary-font);
+    margin-left: 20px;
+    font-weight: 300;
+}
+main .insomniacBuilding{
+    width: 100%;
+    height: 300px;
+    background-image: url(./assets/images/building-ext-2.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+main div.workInfo{
+    padding: 50px 0 0;
+    width: 100%;
+
+}
+
+main .insomniacWork{
+    display: grid;
+    justify-content: center;
+    padding-left: 65px;
+    width: 100%;
+    height: 400px;
+    background-color: var(--background-color);
+}
+
+
+main section.insomniacWork div h1{
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100%;
+}
+main div.workSection{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 30px;
+}
+main section.insomniacWork div.workLine{
+    margin-top: 20px;
+    margin-bottom: 1%;
+    width: 50px;
+    height: 3px;
+    background-color: var(--line-color);
+}
+
+main section.insomniacWork div.career, .opportunities{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    background-color: var(--white-color);
+}
+main section.insomniacWork div.career img{
+    width: 75px;
+    height: 75px;
+}
+main section.insomniacWork .career a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 27px;
+    font-family: var(--primary-font);
+    color: #4A6585;
+}
+
+main .careerLast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: var(--white-color);
+    color: var(--a-color);
+    width: 500px;
+    height: 200px;
+}
+
+main .careerLast a p{
+    text-align: center;
+    padding-top: 55px;
+    gap: 5px;
+    flex-grow: 1;
+    font-family: var(--primary-font);
+    color: #4A6585;
+}
+
+main .careerLast a{
+    padding-top: 50px;
+    color: var(--a-color)
+}
+
+main section.news{
+    display: grid;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    background-image: url(https://insomniac.games/wp-content/uploads/2017/07/news_bg_2.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+main section.news div.news-title{
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 300;
+}
+main section.news .newsContainer{
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    padding-left: 0%;
+}
+main section.news div.boxInfo{
+    padding-top: 30%;
+    padding-left: 15%;
+    display: grid;
+    align-content: space-between;
+    width: 600px;
+    height: 570px;
+    background-color: var(--background-color);
+}
+main section.news div.boxInfo h2{
+    text-transform: uppercase;
+    width: 450px;
+    height: 50px;
+    text-align: left;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 28px;
+}
+main section.news div.boxInfo ul.articleBtn{
+    display: flex;
+    text-align: center;
+    width: 120px;
+    padding-top: 20px;
+    gap: 30px;
+}
+main section.news div.boxInfo ul li a.articleBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #020000;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    transition: 0.2s ease-in;
+}
+main section.news div.boxInfo ul li a.articleBtn:hover{
+    background-color: #78B1BB;
+    transition: 0.2s ease-in;
+    box-shadow: 1px 0px 3px #000;
+}
+main section.news div.boxInfo div.slider{
+    color: var(--white-color);
+    justify-self: flex-end;
+    background-color: #000000CC;
+    width: 170px;
+    height: 70px;
+}
+main section.news div.boxInfo div.slider ul, a.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    height: 20px;
+    gap: 40px;
+
+}
+main section.news div.imgInfo img{
+    width: 600px;
+    height: 570px;
+}
+
+main section.news .newsContainer .bottomContent{
+    gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2, 0fr);
+}
+main section.news .newsContainer .bottomContent .boxInfo ul li{
+    padding-top: 25%;
+}
+.active{
+    color: var(--active-color) !important;
+}
+main section.news .allNews{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+main section.news .allNews ul.allNewsBtn{
+    display: grid;
+    gap: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #020000;
+    box-shadow: 1px 0px 3px #000;
+    transition: 0.2s ease-in;
+}
+main section.news .allNews ul.allNewsBtn:hover{
+    background-color: #78B1BB;
+    transition: 0.2s ease-in;
+}
+main section.news .allNewsBtn  li a.bottomBtn{
+    font-family: var(--primary-font);
+    color: var(--white-color);
+}
+
+main section.community{
+    display: grid;
+    align-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: var(--background-color);
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2 .learnBtnP2:hover{
+    background-color: var(--active-color);
+}
+main section.community .communityContainer{
+    display: grid;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+main section.community .communityTitle h2{
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+main section.community .communitySlider{
+    display: grid;
+    flex-direction: column;
+    gap: 30px;
+    grid-template-columns: repeat(7, 0fr);
+    gap: 30px;
+}
+
+main section.community .communitySlider div.cIcon{
+    width: 179px;
+    height: 189x;
+    background-color:var(--white-color);
+    transition: 0.4s ease-in;
+}
+main section.community .communitySlider div.cIcon ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 15px;
+    gap: 20px;
+    font-family: var(--primary-font);
+    color: var(--a-color);
+    transition: 0.4s ease-in;
+}
+main section.community .communitySlider div.cIcon:hover{ 
+    box-shadow: 0px 0px 7px;
+    transition: 0.4s ease-in;
+}
+main section.community .communitySlider div.cIcon ul li a img{
+    width: 70px;
+    height: 70px;
+}
+main section.community .explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.community .explore ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primary-font);
+    background-color: var(--white-color);
+    border-radius: 30px;
+    text-align: center;
+    width: 426px;
+    height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--a-color);
+    transition: 0.2s ease-in;
+}
+main section.community .explore ul li a i{
+    font-size: 1.3rem;
+}
+main section.community .explore ul li a:hover{
+    background-color: var(--active-color);
+    color: var(--background-color);
+    box-shadow: 1px 2px 7px;
+    transition: 0.2s ease-in;
+
+}
+main section.vision-mission{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/images/space-homepage.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+main section.vision-mission div.text{
+    display: grid;
+    align-content: center;
+    gap: 25px;
+    width: 1250px;
+    height: 100px;
+}
+main section.vision-mission div.text h2{
+    font-size: 40px;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100%;
+}
+main section.vision-mission div.text h5{
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+}
+
+main section.vision-mission div.text p{
+    margin: 1px;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+}
+
+main section.vision-mission div.text ul li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--a-color);
+    font-family: var(--primary-font);
+    width: 160px;
+    height: 32px;
+    border-radius: 30px;
+    transition: 0.3s ease-in;
+}
+
+main section.vision-mission div.text ul li a{
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+main section.vision-mission div.text ul li:hover{
+    background-color: var(--active-color);
+    transition: 0.3s ease-in;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #293237;
+}
+
+footer div.gameList{
+    display: flex;
+    justify-content: center;
+    padding: 115px 290px 0px;
+    text-align: top;
+    gap: 60px;
+    height: 30px;
+    width: 100%;
+    height: 500px;
+}
+footer div.gameList div.row ul li a{
+    line-height: 30px;
+    font-family: var(--primary-font);
+    color: var(--active-color);
+    transition: 0.3s ease-in;
+
+}
+footer div.gameList div.row ul li a:hover{
+    color: var(--background-color);
+    transition: 0.3s ease-in;
+}
+
+footer div.gamesList div.row div.top{
+    width: 100%;
+    height: 200px;
+}
+
+footer article.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--secondarybackground-color)
+}
+footer article.icons a img{
+    width: 150px;
+    height: 150px;
+}
+
+footer article.icons div.address{
+    font-family: var(--primary-font);
+    color: var(--footer-color);
+    width: 200px;
+}
+footer article.icons div.address p{
+    width: 149px;
+}
+footer article.icons div.address h4{
+    width: 168px;
+    text-align: center;
+    margin-left: 1px;
+}
+
+footer article.icons div.logos{
+    display: flex;
+    gap: 254px;
+}
+
+main article.containerP2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/space-homepage.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+main article.containerP2 .gamesP2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+    max-width: 90%;
+    height: 100%;
+}
+
+main article.containerP2 .gamesP2 .contentP2{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2{
+    display: grid;
+    justify-content: center;
+    font-family: var(--primary-font);
+    background-color: var(--white-color);
+    width: 400px;
+    height: 540px;
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2 h2{
+    width: 300px;
+    padding-left: 24px;
+    font-weight: 400;
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2 p{
+    padding-left: 6px;
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2 img{
+    width: 400px;
+    height: 400px;
+}
+main article.containerP2 .gamesP2 .contentP2 .gameContentP2 .learnBtnP2{
+    justify-self: center;
+    top: 540px;
+    left: 300px;
+    color: black;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    border-radius: 36px;
+    background-color: #48797a;
+    color: white;
+    height: 32px;
+    padding: 0 2rem;
+    line-height: 36px;
+    font-weight: 400;
+    transition: 0.2s ease-out;
+    margin: 57px;
+    width: 87%;
+    text-align: center;
+    margin: 0px;
+}
+
+main section.currentTitle{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 1700px;
+    background-color: var(--active-color);
+}
+main section.currentTitle .wrapper{
+    display: grid;
+    padding-bottom: 40%;
+    justify-content: center;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 30px;
+
+}
+main section.careerOppo .articleSection .wrapper2{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 40px;
+    width: 800px;
+}
+main section.careerOppo .articleSection .wrapper2 .colaider{
+    width: 558px;
+}
+main section.currentTitle .wrapper2 .colaider{
+    width: 558px;
+}
+main section.currentTitle .game a img{
+    width: 400px;
+    height: 400px;
+}
+
+main section.currentTitle .wrapper .game{
+    font-family: var(--primary-font);
+    font-size: 24px;
+    text-align: center;
+    background-color: var(--white-color);
+    width: 400px;
+    height: 500px;
+}
+main section.currentTitle .wrapper .game1{
+    width: 400px;
+    height: 500px;
+    display: grid;
+    gap: 30px;
+    text-align: center;
+    background-color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 24px;
+}
+main section.currentTitle .wrapper .game1 a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+main section.currentTitle .wrapper .game1 img{
+    width: 400px;
+    height: 400px;
+}
+main section.currentTitle .wrapper .game1 a i{
+    position: relative;
+    color: var(--a-color);
+    font-size: 36px;
+    width: 400px;
+    top: -75px;
+    left: 163px;
+}
+main section.currentTitle .wrapper .game a i{
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+    color: var(--a-color);
+    background-color: var(--white-color);
+    border-radius: 100%;
+}
+
+main section.currentTitle .wrapper .game a.problem{
+    position: relative;
+    top: -34px;
+    left: 103px;
+}
+
+main section.news .newsContainer .bottomContent .paragraph{
+    width: 390px;
+}
+main section.news .newsContainer .bottomContent .boxInfo ul li.articleFix{
+    padding: 0px;
+}
+main section.news .newsContainer .bottomContent span{
+    color: var(--white-color);
+    font-family: var(--primary-font);
+}
+.imgResize{
+    width: 295px;
+    height: 165px;
+}
+main section.community .communitySliderP2{
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 30px;
+}
+br{ 
+    justify-self: left ;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
+main section.community .communityContainer{
+    gap: 12px;
+}
+main section.community .communityContainer .gamesRow{
+    width: 100%;
+    height: 100%;
+}
+main section.community .communityContainer .gamesRow ul{
+    display: grid;
+    grid-template-columns: repeat(8, 0fr);
+}
+
+main section.community .communityContainer .gamesRow ul li .arrow{
+    position: relative;
+    top: 25px;
+    color: var(--footer-color);
+}
+
+
+main section.currentTitle .wrapper .game1 ul i{
+    position: relative;
+    top: -75px;
+    left: 170px;
+    font-size: 50px;
+}
+main section.currentTitle .wrapper .game1 ul i.fix{
+    top: -103px;
+}
+main section.currentTitle .wrapper .game1 ul{
+    color: var(--background-color);
+    transition: 0.2s ease-out;
+}
+main section.currentTitle .wrapper .game1 ul:hover{
+    color: var(--active-color);
+    transition: 0.2s ease-in;
+}
+
+main section.careerOppo{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://insomniac.games/wp-content/uploads/2017/07/JobOpenings_Background-1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+main section.careerOppo div.articleSection{
+    display: grid;
+    justify-content: end;
+    gap: 30px;
+    width: 65%;
+    padding-top: 30px;
+    margin-left: 271px;
+}
+main section.careerOppo div.articleSection .textArea{
+    font-size: 16px;
+}
+main section.careerOppo div.articleSection p{
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+main .careerNav{
+    position: sticky    ;
+    top: 80px;
+    left:0;
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    height: 40px;
+    background-color: #48707A;
+}
+
+main .careerNav ul li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: #78b1bb;
+    transition: 0.3s ease-in;
+}
+main .careerNav ul li a:hover{
+    color: var(--white-color);
+    transition: 0.3s ease-in;
+}
+main .careerNav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.collaider{
+    display: flex;
+    flex-direction: row;
+}
+main section.careerOppo div.articleSection .wrapper2{
+    width: 100%;
+}
+
+main section.careerOppo .wrapper{
+    background-color: var(--white-color);
+    width: 578px;
+    height: 876px;
+}
+main section.careerOppo .wrapper .accordion-body{
+    border: none;
+}
+main section.careerOppo .wrapper .accordion-body p{
+    color: #404040;
+}
+main section.careerOppo .box{
+    width: 585px;
+    height: 550px;
+    background-color: #DBE4E7;
+    opacity: 0.8;
+}
+main section.careerOppo .box ul li a{
+    color: var(--a-color);
+    font-size: 20px;
+}
+main section.careerOppo .articleSection{
+    display: grid;
+}
+main section.careerOppo .articleSection .imgHolder{
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+    height: 10px;
+    gap: 30px;
+}
+main section.careerOppo .articleSection .imgHolder img{
+    width: 578px;
+    height: 325px;
+}
+main section.careerOppo .articleSection .imgHolder .imagesNext{
+    display: flex;
+    gap: 30px;
+}
+main section.careerOppo .articleSection .imgHolder .imagesNext img{
+    width: 277px;
+    height: 155px;
+}
+main section.careerOppo .articleSection .wrapper2 .colaider p{
+    color: var(--black-color);
+}
+
+main section.insomniacLife{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://insomniac.games/wp-content/uploads/2020/03/BurbankOfficeBW_darker2-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main section.insomniacLife{
+    display: grid;
+}
+
+main section.insomniacLife div.correction{
+    width: 780px;
+    padding-top: 30px;
+}
+main section.insomniacLife .containerHolder{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 30px;
+    height: 700px;
+    padding-top: 30px;
+}
+main section.insomniacLife .lifeContainers{
+    width: 400px;
+    height: 645px;
+    background-color: rgb(72, 112, 122);
+    font-family: var(--primary-font);
+}
+main section.insomniacLife .containerHolder .lifeContainers img{
+    width: 400px;
+    height: 400px;
+}
+
+
+main section.insomniacLife .containerHolder .lifeContainers .btn{
+    background-color: #293237;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    display: grid;
+    border-radius: 90px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 200;
+}
+main section.insomniacLife .containerHolder .lifeContainers ul li{
+    padding-right: 30px;
+}
+main section.insomniacLife .containerHolder .lifeContainers .btn:hover{
+    background-color: var(--active-color);
+    box-shadow: black 1px 1px 1px;
+}
+main section.insomniacLife .containerHolder .lifeContainers h3{
+    padding-left: 16px;
+    color: var(--white-color);
+}
+main section.insomniacLife .containerHolder .lifeContainers p{
+    color: var(--white-color);
+}
+
+
+main section.Benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/images/space-homepage.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main section.Benefits .title{
+    width: 1300px;
+}
+main section.Benefits .textHolder{
+    background-color: #D4D7D8;
+    border-radius: 5px;
+    width: 1300px;
+    height: 200px;
+}
+main section.Benefits .textHolder div.fullList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+main section.Benefits .textHolder div.fullList a{
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 90px;
+    transition: 0.2s ease-out;
+}
+main section.Benefits .textHolder div.fullList a:hover{
+    background-color: var(--active-color);
+    box-shadow: black 0px 1px 0px;
+    transition: 0.2s ease-in;
+}
+main section.awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://insomniac.games/wp-content/uploads/2017/07/awards-background1-1.jpg);
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+main section.awards .title{
+    width: 1283px;
+}
+main section.awards .title h2{
+    font-size: 40px;
+}
+main section.awards .imgContainer .images2 i{
+    color: var(--white-color);
+    font-size: 15px;
+}
+.accordion{
+    opacity: 0.95;
+    border-bottom: none;
+}
+.accordion-header button{
+    color: var(--active-color);
+}
+.linecommunity{
+    position: relative;
+    justify-self: left;
+    width: 80px;
+    height: 3px;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
+.linecurrent{
+    position: relative;
+    justify-self: left;
+    width: 80px;
+    height: 3px;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
+.lineP2{
+    position: relative;
+    justify-self: left;
+    width: 80px;
+    height: 3px;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
+.lineBenefits{
+    position: relative;
+    justify-self: left;
+    width: 80px;
+    height: 3px;
+    margin: 20px;
+    margin-bottom: 0px;
+    right: 17px;
+    background-color: var(--background-shadow)
+}
